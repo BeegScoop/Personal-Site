@@ -1,0 +1,53 @@
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.gradient-background {
+    background: linear-gradient(300deg, #6527BE, #9681EB, #45CFDD, #A7EDE7);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+.head{
+    position: relative;
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    
+}
+
+.head-txt{
+    font-family: 'Caprasimo', cursive;
+    font-size:5.625rem;
+    color:#092D9E;
+    gap:30px;
+    
+}
+.sub-txt{
+    font-family: 'Martian Mono', monospace;
+    color:#092D9E;
+    font-size:2.5rem;
+    
+    
+}
+.txt-section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.code{
+    font-weight: bold;
+    text-decoration:underline;
+    text-transform:uppercase;
+}
+.city{
+    width:100vw;
+}
