@@ -23,16 +23,21 @@
 
     
 }
-
-.head-txt{
+.caprasimo{
     font-family: 'Caprasimo', cursive;
+}
+.martian-mono{
+    font-family: 'Martian Mono', monospace;
+}
+.head-txt{
+    
     font-size:5.625rem;
     color:#092D9E;
     gap:30px;
     
 }
 .sub-txt{
-    font-family: 'Martian Mono', monospace;
+    
     color:#092D9E;
     font-size:2.5rem;
     
@@ -50,4 +55,19 @@
 }
 .city{
     width:100vw;
+}
+.mid-section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top:40px;
+    background-color: #9681EB;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.topics{
+    color:black;
 }
