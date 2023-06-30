@@ -21,6 +21,8 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    border-bottom-right-radius: 20%;
+    border-bottom-left-radius: 20%;
 
     
 }
@@ -56,6 +58,9 @@
 }
 .city{
     width:100vw;
+    border-bottom-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    
 }
 .mid-section{
     display: flex;
@@ -145,7 +150,7 @@ hr {
     background-image: linear-gradient(to bottom, #6527BE, #45CFDD);
     -webkit-border-radius: 8;
     -moz-border-radius: 8;
-    border-radius: 8px;
+    border-radius: 8px; 
     font-family: "Montserrat", sans-serif;
     color: #ffffff;
     font-size: 20px;
